@@ -1,0 +1,38 @@
+/* pages/index2/index2.wxss */
+.bg{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  filter: blur(2px);
+  /* display: none; */
+}
+.title{
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  z-index: 5;
+  margin: 30vh 0 5vh;
+}
+.search{
+  width: 80vw;
+  margin: 0 auto;
+}
+.input{
+  color: #fff;
+  height: 5vh;
+  line-height: 5vh;
+  padding-left: 10px;
+  font-size: 14px;
+  border:1px #fff solid;
+}
+.btn{
+  width: 17vw;
+  height: 5vh;
+  line-height: 5vh;
+  margin-left: 5px;
+  float: right;
+  font-size: 12px;
+
+}

@@ -1,0 +1,5 @@
+<!--pages/index3/index3.wxml-->
+<view bindtap="back" class="back">返回</view>
+<view wx:for="{{picList}}">
+   <image bindtap="perview" mode="widthFix" src="{{ item.thumbURL }}" lazy-load="true" data-src="{{ item.thumbURL }}"></image>
+</view>

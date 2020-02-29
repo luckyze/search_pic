@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<!-- <view class="box" 
+      style="background-color:rgb({{r}},{{g}},{{b}})">
+</view>
+
+<image src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1279680575,3317728362&fm=26&gp=0.jpg" mode="aspectFit" mode="width" lazy-load="true"></image>
+<map></map>
+
+<navigator url="/pages/logs/logs.wxml"></navigator> -->
+
+
+<swiper autoplay="true">
+<swiper-item>
+<image src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1279680575,3317728362&fm=26&gp=0.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=276094871,4176178796&fm=26&gp=0.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1279680575,3317728362&fm=26&gp=0.jpg"></image>
+</swiper-item>
+</swiper>
+
+<picker mode="date">选择日期</picker>
+
+<picker mode="region">地址</picker>
